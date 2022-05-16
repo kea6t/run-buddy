@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href=".assets/css/style.css" />
-        <title>Run Buddy</title>
-        </head>
-    <body>
-        <!-- Navigation -->
-        <header>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href=".assets/css/style.css" />
+    <title>Run Buddy</title>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header>
         <h1>
             <a href="index.html">RUN BUDDY</a>
         </h1>
@@ -34,36 +36,70 @@
 
             </ul>
         </nav>
-        </header>
+    </header>
 
-        <!-- hero/jumbotron -->
-        <section>
-        </section>
-        
-        <!-- "what we do" section -->
-        <section>
+    <!-- hero/jumbotron -->
+    <section>
+        <div>
+            <h3>Get Started</h3>
+            <p>Fill out this form and one of our trainers will schedule a consult</p>
+            <!-- Add form here-->
+            <form>
+                <label for="name">Enter full name</label>
+                <input type="text" placeholder="Your name" name="name" id="name" />
+                <label for="email">Enter email address</label>
+                <input type="email" placeholder="Email Address" name="email" id="email" />
+                <label for="phone">Enter phone number</label>
+                <input type="tel" placeholder="Phone Number" name="phone" id="phone" />
+                <p>
+                    Have you worked out with a trainer before?
+                    <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                    <label for="trainer-yes">Yes</label>
+                    <input type="radio" name="trainer-confirm" id="trainer-no" />
+                    <label for="trainer-no">No</label>
+                </p>
+                <p>
+                    <label for="checkbox">
+                        I acknowledge that I am at least 18 years of age
+                    </label>
+                    <input type="checkbox" name="age-confirm" id="checkbox" />
+                </p>
+                <button type="Submit">
+                    Get Running!
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- "what we do" section -->
+    <section>
         <h2>What We Do 🏃</h2>
-        </section>
-        
-        <!-- "What you do" section -->
-        <section>
+    </section>
+
+    <!-- "What you do" section -->
+    <section>
         <h2>What You Do</h2>
-        </section>
+    </section>
 
-        <!-- "Meet your trainers" section -->
-        <section>
+    <!-- "Meet your trainers" section -->
+    <section>
         <h2>Your Trainers</h2>
-        </section>
+    </section>
 
-        <!-- "Reach out" section -->
-        <section>
+    <!-- "Reach out" section -->
+    <section>
         <h2>Reach Out</h2>
-        </section>
+    </section>
 
-        <!-- footer -->
-        <footer>
-            <h2>❤️ Made with love by Run Buddy</h2>
-        </footer>
+    <!-- footer -->
+    <footer>
+        <h2>❤️ Made with love by Run Buddy</h2>
+        <div>
+            <a href="#">Read Our Privacy Policy</a><br />
+            &copy; 2022 Run Buddy, Inc.
+        </div>
+    </footer>
 
-        </body>
+</body>
+
 </html>
